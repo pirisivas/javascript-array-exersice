@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id ="demo3"></p>
+    <p id ="demo4"></p>
+    <button onclick="myFunction()">Fruits in reverse</button>
+    <script type="text/javascript">
+      var Fruits = ["Apple"];
+        document.getElementById("demo3").innerHTML = Fruits;
+        function myFunction() {
+          Fruits.unshift("Orange","Lemon");
+           document.getElementById("demo4").innerHTML = Fruits;
+           Fruits.push("Pineapple","Peach");
+           document.getElementById("demo4").innerHTML = Fruits;
+  }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id ="demo"></p>
+    <p id ="demo1"></p>
+      <p id ="demo3"></p>
+      <p id ="demo4"></p>
+    <script>
+    var Foods = ["rice", "pizza", "sandwich", "rolls"];
+    document.getElementById("demo").innerHTML = Foods;
+   Foods.pop("rolls");
+   document.getElementById("demo1").innerHTML = Foods;
+    Foods.push("cake");
+    document.getElementById("demo3").innerHTML = Foods;
+   Foods.shift("rice");
+    document.getElementById("demo4").innerHTML = Foods;
+
+    </script>
+  </body>
+</html>
